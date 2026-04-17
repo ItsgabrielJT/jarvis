@@ -1,0 +1,102 @@
+========================================
+      SISTEMA JARVIS INICIADO
+========================================
+
+[Jarvis] -> Sistemas en línea. Esperando comando de doble palmada.
+
+Da 2 aplausos a una distancia prudente del micrófono (intervalo ~0.5 a 1 segundo).
+[*] Primer aplauso detectado! (Volumen: 209.3)
+[DEBUG] Volumen actual: 62.5 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 173.1)
+[DEBUG] Volumen actual: 59.4 / Umbral: 150   [DEBUG] Volumen actual: 127.7 / Umbral: 150   [DEBUG] Volumen actual: 72.2 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 179.5)
+[DEBUG] Volumen actual: 79.3 / Umbral: 150   [DEBUG] Volumen actual: 56.7 / Umbral: 150   [*] ¡Segundo aplauso detectado! (Volumen: 217.5)
+
+========================================
+ >>> EVENTO: DOBLE APLAUSO ACTIVADO <<<
+========================================
+
+[Jarvis] -> Iniciando tu entorno de trabajo.
+
+[Jarvis] -> ¿Qué deseas ordenar?
+
+[Escuchando sub-comando por 5 segundos...]
+[Procesando audio...]
+[No se entendió el audio]
+
+[Jarvis] -> No pude entender el sonido, lo siento.
+
+[Regresando al modo silencioso... Esperando doble aplauso para ejecutar de nuevo.]
+[DEBUG] Volumen actual: 90.5 / Umbral: 150   [DEBUG] Volumen actual: 50.3 / Umbral: 150   [DEBUG] Volumen actual: 50.2 / Umbral: 150   [DEBUG] Volumen actual: 66.8 / Umbral: 150   [DEBUG] Volumen actual: 65.5 / Umbral: 150   [DEBUG] Volumen actual: 55.7 / Umbral: 150   [DEBUG] Volumen actual: 81.3 / Umbral: 150   [DEBUG] Volumen actual: 61.2 / Umbral: 150   [DEBUG] Volumen actual: 56.0 / Umbral: 150   [DEBUG] Volumen actual: 86.8 / Umbral: 150   [DEBUG] Volumen actual: 102.0 / Umbral: 150   [DEBUG] Volumen actual: 99.6 / Umbral: 150   [DEBUG] Volumen actual: 65.9 / Umbral: 150   [DEBUG] Volumen actual: 51.2 / Umbral: 150   [DEBUG] Volumen actual: 52.0 / Umbral: 150   [DEBUG] Volumen actual: 54.1 / Umbral: 150   [DEBUG] Volumen actual: 51.5 / Umbral: 150   [DEBUG] Volumen actual: 55.2 / Umbral: 150   [DEBUG] Volumen actual: 54.6 / Umbral: 150   [DEBUG] Volumen actual: 60.5 / Umbral: 150   [DEBUG] Volumen actual: 55.7 / Umbral: 150   [DEBUG] Volumen actual: 51.3 / Umbral: 150   [DEBUG] Volumen actual: 52.6 / Umbral: 150   [DEBUG] Volumen actual: 50.7 / Umbral: 150   [DEBUG] Volumen actual: 54.9 / Umbral: 150   [DEBUG] Volumen actual: 51.1 / Umbral: 150   [DEBUG] Volumen actual: 62.3 / Umbral: 150   [DEBUG] Volumen actual: 61.7 / Umbral: 150   [DEBUG] Volumen actual: 56.0 / Umbral: 150   [DEBUG] Volumen actual: 52.2 / Umbral: 150   [DEBUG] Volumen actual: 50.5 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 203.1)
+[DEBUG] Volumen actual: 61.2 / Umbral: 150   [DEBUG] Volumen actual: 95.6 / Umbral: 150   [*] ¡Segundo aplauso detectado! (Volumen: 211.7)
+
+========================================
+ >>> EVENTO: DOBLE APLAUSO ACTIVADO <<<
+========================================
+
+[Jarvis] -> Iniciando tu entorno de trabajo.
+
+[Jarvis] -> ¿Qué deseas ordenar?
+
+[Escuchando sub-comando por 5 segundos...]
+[Procesando audio...]
+[No se entendió el audio]
+
+[Jarvis] -> No pude entender el sonido, lo siento.
+
+[Regresando al modo silencioso... Esperando doble aplauso para ejecutar de nuevo.]
+[DEBUG] Volumen actual: 92.6 / Umbral: 150   [DEBUG] Volumen actual: 61.3 / Umbral: 150   [DEBUG] Volumen actual: 60.5 / Umbral: 150   [DEBUG] Volumen actual: 60.5 / Umbral: 150   [DEBUG] Volumen actual: 56.1 / Umbral: 150   [DEBUG] Volumen actual: 56.7 / Umbral: 150   [DEBUG] Volumen actual: 65.9 / Umbral: 150   [DEBUG] Volumen actual: 71.8 / Umbral: 150   [DEBUG] Volumen actual: 70.2 / Umbral: 150   [DEBUG] Volumen actual: 56.3 / Umbral: 150   [DEBUG] Volumen actual: 55.7 / Umbral: 150   [DEBUG] Volumen actual: 61.7 / Umbral: 150   [DEBUG] Volumen actual: 58.0 / Umbral: 150   [DEBUG] Volumen actual: 51.2 / Umbral: 150   [DEBUG] Volumen actual: 68.1 / Umbral: 150   [DEBUG] Volumen actual: 52.2 / Umbral: 150   [DEBUG] Volumen actual: 52.2 / Umbral: 150   [DEBUG] Volumen actual: 52.5 / Umbral: 150   [DEBUG] Volumen actual: 77.5 / Umbral: 150   [DEBUG] Volumen actual: 83.8 / Umbral: 150   [DEBUG] Volumen actual: 67.7 / Umbral: 150   [DEBUG] Volumen actual: 56.4 / Umbral: 150   [DEBUG] Volumen actual: 55.2 / Umbral: 150   [DEBUG] Volumen actual: 50.2 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 151.9)
+[*] ¡Segundo aplauso detectado! (Volumen: 245.8)
+
+========================================
+ >>> EVENTO: DOBLE APLAUSO ACTIVADO <<<
+========================================
+
+[Jarvis] -> Iniciando tu entorno de trabajo.
+
+[Jarvis] -> ¿Qué deseas ordenar?
+
+[Escuchando sub-comando por 5 segundos...]
+[Procesando audio...]
+[No se entendió el audio]
+
+[Jarvis] -> No pude entender el sonido, lo siento.
+
+[Regresando al modo silencioso... Esperando doble aplauso para ejecutar de nuevo.]
+[DEBUG] Volumen actual: 79.5 / Umbral: 150   [DEBUG] Volumen actual: 70.3 / Umbral: 150   [DEBUG] Volumen actual: 50.6 / Umbral: 150   [DEBUG] Volumen actual: 63.4 / Umbral: 150   [DEBUG] Volumen actual: 96.1 / Umbral: 150   [DEBUG] Volumen actual: 112.6 / Umbral: 150   [DEBUG] Volumen actual: 78.5 / Umbral: 150   [DEBUG] Volumen actual: 53.0 / Umbral: 150   [DEBUG] Volumen actual: 80.5 / Umbral: 150   [DEBUG] Volumen actual: 56.7 / Umbral: 150   [DEBUG] Volumen actual: 58.3 / Umbral: 150   [DEBUG] Volumen actual: 66.1 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 263.1)
+[DEBUG] Volumen actual: 95.8 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 215.1)
+[DEBUG] Volumen actual: 83.1 / Umbral: 150   [*] ¡Segundo aplauso detectado! (Volumen: 254.4)
+
+========================================
+ >>> EVENTO: DOBLE APLAUSO ACTIVADO <<<
+========================================
+
+[Jarvis] -> Iniciando tu entorno de trabajo.
+
+[Jarvis] -> ¿Qué deseas ordenar?
+
+[Escuchando sub-comando por 5 segundos...]
+[Procesando audio...]
+-> Comando capturado: 'no todavía no'
+
+[Jarvis] -> Aún no he sido programado para ese comando.
+
+[Regresando al modo silencioso... Esperando doble aplauso para ejecutar de nuevo.]
+[DEBUG] Volumen actual: 58.5 / Umbral: 150   [DEBUG] Volumen actual: 100.1 / Umbral: 150   [DEBUG] Volumen actual: 58.5 / Umbral: 150   [DEBUG] Volumen actual: 101.3 / Umbral: 150   [DEBUG] Volumen actual: 79.6 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 176.4)
+[DEBUG] Volumen actual: 99.9 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 202.7)
+[DEBUG] Volumen actual: 55.8 / Umbral: 150   [*] ¡Segundo aplauso detectado! (Volumen: 153.6)
+
+========================================
+ >>> EVENTO: DOBLE APLAUSO ACTIVADO <<<
+========================================
+
+[Jarvis] -> Iniciando tu entorno de trabajo.
+
+[Jarvis] -> ¿Qué deseas ordenar?
+
+[Escuchando sub-comando por 5 segundos...]
+[Procesando audio...]
+-> Comando capturado: 'ya llegan a condenar'
+
+[Jarvis] -> Aún no he sido programado para ese comando.
+
+[Regresando al modo silencioso... Esperando doble aplauso para ejecutar de nuevo.]
+[DEBUG] Volumen actual: 65.7 / Umbral: 150   [DEBUG] Volumen actual: 68.2 / Umbral: 150   [DEBUG] Volumen actual: 64.0 / Umbral: 150   [DEBUG] Volumen actual: 62.0 / Umbral: 150   [DEBUG] Volumen actual: 79.2 / Umbral: 150   [DEBUG] Volumen actual: 60.9 / Umbral: 150   [DEBUG] Volumen actual: 122.3 / Umbral: 150   [DEBUG] Volumen actual: 113.4 / Umbral: 150   [DEBUG] Volumen actual: 108.6 / Umbral: 150   [DEBUG] Volumen actual: 85.3 / Umbral: 150   [DEBUG] Volumen actual: 76.0 / Umbral: 150   [DEBUG] Volumen actual: 94.1 / Umbral: 150   [DEBUG] Volumen actual: 80.8 / Umbral: 150   [DEBUG] Volumen actual: 111.2 / Umbral: 150   [DEBUG] Volumen actual: 126.0 / Umbral: 150   [DEBUG] Volumen actual: 131.2 / Umbral: 150   [DEBUG] Volumen actual: 125.1 / Umbral: 150   [DEBUG] Volumen actual: 103.6 / Umbral: 150   [DEBUG] Volumen actual: 91.1 / Umbral: 150   [DEBUG] Volumen actual: 61.1 / Umbral: 150   [DEBUG] Volumen actual: 61.4 / Umbral: 150   [DEBUG] Volumen actual: 69.1 / Umbral: 150   [DEBUG] Volumen actual: 74.7 / Umbral: 150   [DEBUG] Volumen actual: 58.0 / Umbral: 150   [DEBUG] Volumen actual: 59.3 / Umbral: 150   
