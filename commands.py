@@ -104,9 +104,9 @@ def listen_and_execute():
         recognizer.dynamic_energy_threshold = True
         recognizer.dynamic_energy_ratio = 1.5  # Bajamos el ratio para no requerir tanta fuerza
         
-        # AUMENTAMOS EL TIEMPO DE PAUSA PARA ORACIONES LARGAS
-        recognizer.pause_threshold = 3.0  # Cuánto tiempo de silencio se necesita para considerar terminada la frase
-        recognizer.non_speaking_duration = 2.5 # Cuánto silencio "puro" antes de apagar
+        # TIEMPO DE PAUSA EQUILIBRADO PARA RAPIDEZ Y ORACIONES (Ajustado)
+        recognizer.pause_threshold = 1.2  # Reducido de 3.0 a 1.2 para detectar comandos más rápido
+        recognizer.non_speaking_duration = 1.0 # Reducido de 2.5 a 1.0 para mejorar el tiempo de respuesta
         
         recognizer.adjust_for_ambient_noise(source, duration=1.5)
         
