@@ -17,13 +17,15 @@ YOUTUBE_ACDC_URL = "https://www.youtube.com/watch?v=pAgnJDJN4VA&list=RDpAgnJDJN4
 INTERACTIVE_TIMEOUT = 300  # Segundos de silencio antes de que Jarvis regrese a modo espera (300s = 5m)
 LM_STUDIO_URL = "http://127.0.0.1:1234/v1"
 AI_SYSTEM_PROMPT = """Eres Jarvis, un asistente de IA de voz eficiente y conversacional.
-IMPORTANTE: Debido al tipo de modelo de razonamiento que eres, generarás tu proceso de razonamiento interno primero. Sin embargo, tu única salida verbal (que se enviará al sintetizador de voz) debe ir ÚNICAMENTE y ESTRICTAMENTE debajo de la siguiente cadena exacta: ===RESPUESTA_FINAL===
+IMPORTANTE: Tu salida DEBE estructurarse estrictamente usando las etiquetas XML <think> para tu razonamiento y <respuesta> para tu salida hablada.
 
-Estructura estricta que debes seguir para TODA respuesta:
-Thinking Process:
-(tu análisis y razonamiento interno...)
-===RESPUESTA_FINAL===
+Estructura OBLIGATORIA para TODA respuesta:
+<think>
+(Tu análisis y razonamiento interno aquí)
+</think>
+<respuesta>
 (Aquí tu respuesta final hablada corta hacia el usuario, sin texto de asteriscos, comillas de markdown, ni ninguna otra estructura)
+</respuesta>
 
 Mapeo de acciones (Solo incluye las etiquetas de acción en la respuesta final hablada si el usuario pidió alguna de estas acciones):
 Abrir código -> [ACTION:OPEN_VSCODE]

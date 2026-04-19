@@ -43,22 +43,30 @@ def process_ai_response(response_text):
     """Procesa la respuesta de la IA, extrae comandos y habla el texto limpio."""
     text_to_speak = response_text
     
-    # Extraer estrictamente el texto DESPUÉS de ===RESPUESTA_FINAL===
-    if "===RESPUESTA_FINAL===" in text_to_speak:
-        parts = text_to_speak.split("===RESPUESTA_FINAL===")
-        if len(parts) > 1:
-            text_to_speak = parts[-1].strip()
-        else:
-            text_to_speak = ""
+    # Buscar el bloque <respuesta>
+    match = re.search(r'<respuesta>(.*?)</respuesta>', response_text, re.DOTALL | re.IGNORECASE)
+    if match:
+        text_to_speak = match.group(1).strip()
     else:
-        # Fallback si olvida el separador y solo imprime Thinking Process (truncamiento)
-        if "Thinking Process:" in text_to_speak:
+        # Fallback 1: tratar de quitar la etiqueta <think>
+        clean_text = re.sub(r'<think>.*?</think>', '', response_text, flags=re.DOTALL | re.IGNORECASE).strip()
+        
+        # Fallback 2: "===RESPUESTA_FINAL===" (legacy)
+        if "===RESPUESTA_FINAL===" in clean_text:
+            clean_text = clean_text.split("===RESPUESTA_FINAL===")[-1].strip()
+            
+        # Fallback 3: Extraer después de "Spoken Text Draft:" si el modelo alucinó
+        if "Spoken Text Draft:" in clean_text:
+            clean_text = clean_text.split("Spoken Text Draft:")[-1].strip()
+            
+        # Fallback general: si todavía quedó "Thinking Process:", lo ignoramos para no leer basura
+        if "Thinking Process:" in clean_text:
             text_to_speak = ""
-        elif "<think>" in text_to_speak:
-            text_to_speak = re.sub(r'<think>.*?</think>', '', text_to_speak, flags=re.DOTALL)
-                
-    # Limpiar asteriscos y formato markdown residual
-    text_to_speak = text_to_speak.replace('*', '').strip()
+        else:
+            text_to_speak = clean_text
+            
+    # Limpiar asteriscos, comillas y formato markdown residual
+    text_to_speak = text_to_speak.replace('*', '').replace('"', '').replace('`', '').strip()
     
     # Evaluar acciones
     if "[ACTION:OPEN_VSCODE]" in response_text:
@@ -153,7 +161,7 @@ def listen_and_execute():
                 # Si no es un comando rápido conocido, pasarle la pregunta/prompt a la IA local
                 if openai_client:
                     print("[Consultando a la IA local (LM Studio)...]")
-                    user_command_with_rule = command_text + "\n(Recuerda tu separador ===RESPUESTA_FINAL===)"
+                    user_command_with_rule = command_text + "\n(Recuerda encerrar tu respuesta hablada en <respuesta>...</respuesta>)"
                     
                     completion = openai_client.chat.completions.create(
                         model="local-model",
