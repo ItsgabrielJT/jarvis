@@ -106,7 +106,7 @@ def listen_and_execute():
     recognizer = sr.Recognizer()
     
     with sr.Microphone() as source:
-        speak("¿En qué te puedo ayudar, señor? Estaré pendiente a tus órdenes.")
+        speak("¿En qué le puedo ayudar, señor? Estaré pendiente a tus órdenes.")
         
         # Configuración avanzada para el micrófono
         recognizer.dynamic_energy_threshold = True
@@ -129,9 +129,10 @@ def listen_and_execute():
                 command_text = recognizer.recognize_google(audio, language="es-ES").lower()
                 print(f"-> Has dicho: '{command_text}'")
                 
-                # Despertador por palabra clave
-                if "jarvis" not in command_text:
-                    print("[Wake word 'Jarvis' no detectada. Ignorando...]")
+                # Despertador por palabra clave (soporte fonético por pronunciación "Aliz")
+                posibles_nombres = ["alice", "alis", "aliz", "álice"]
+                if not any(nombre in command_text for nombre in posibles_nombres):
+                    print("[Wake word 'Alice' no detectada. Ignorando...]")
                     continue
                     
                 # Ejecución RÁPIDA de comandos conocidos sin usar la IA
@@ -155,7 +156,7 @@ def listen_and_execute():
                     speak("Reiniciando sistemas...")
                     os.execv(sys.executable, [sys.executable] + sys.argv)
                 elif "apagar" in command_text or "detener" in command_text or "salir" in command_text:
-                    speak("Apagando Jarvis. Hasta luego.")
+                    speak("Apagando Sistemas. Hasta luego.")
                     sys.exit(0)
                 
                 # Si no es un comando rápido conocido, pasarle la pregunta/prompt a la IA local
@@ -174,7 +175,7 @@ def listen_and_execute():
                     )
                     
                     ai_response = completion.choices[0].message.content
-                    print(f"\n[Jarvis AI RAW OUTPUT] ->\n{ai_response}\n")
+                    print(f"\n[Alice AI RAW OUTPUT] ->\n{ai_response}\n")
                     
                     if not ai_response.strip():
                         speak("Error interno en la generación del modelo.")

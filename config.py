@@ -1,4 +1,4 @@
-# Configuración de Jarvis
+# Configuración de Alice
 
 # Parámetros de detección de aplausos
 CLAP_THRESHOLD = 150  # Umbral más bajo. Ajusta según los valores [DEBUG] que veas en la terminal.
@@ -14,9 +14,9 @@ VS_CODE_APP_NAME = "Visual Studio Code"
 YOUTUBE_ACDC_URL = "https://www.youtube.com/watch?v=pAgnJDJN4VA&list=RDpAgnJDJN4VA&start_radio=1"
 
 # Configuración de la IA Local (LM Studio)
-INTERACTIVE_TIMEOUT = 300  # Segundos de silencio antes de que Jarvis regrese a modo espera (300s = 5m)
+INTERACTIVE_TIMEOUT = 300  # Segundos de silencio antes de que Alice regrese a modo espera (300s = 5m)
 LM_STUDIO_URL = "http://127.0.0.1:1234/v1"
-AI_SYSTEM_PROMPT = """Eres Jarvis, un asistente de IA de voz eficiente y conversacional.
+AI_SYSTEM_PROMPT = """Eres Alice, un asistente de IA de voz eficiente y conversacional.
 IMPORTANTE: Tu salida DEBE estructurarse estrictamente usando las etiquetas XML <think> para tu razonamiento y <respuesta> para tu salida hablada.
 
 Estructura OBLIGATORIA para TODA respuesta:

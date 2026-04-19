@@ -5,7 +5,7 @@ from voice_engine import speak
 def on_double_clap():
     """
     Función que responde al evento de doble aplauso detectado.
-    1. Jarvis da la bienvenida.
+    1. Alice da la bienvenida.
     2. Ejecuta la macro (Abre VS Code y pone música en YouTube).
     3. Habilita el reconocimiento de voz para comandos extra (opcional).
     """
@@ -13,7 +13,7 @@ def on_double_clap():
     print(" >>> EVENTO: DOBLE APLAUSO ACTIVADO <<<")
     print("="*40)
     
-    speak("Iniciando tu entorno de trabajo.")
+    speak("Iniciando su entorno de trabajo.")
     
     # 1 y 2: Visual Studio Code + YouTube AC/DC
     execute_special_action()
@@ -27,7 +27,7 @@ def on_double_clap():
 
 if __name__ == "__main__":
     print("="*40)
-    print("      SISTEMA JARVIS INICIADO")
+    print("      SISTEMA ALICE INICIADO")
     print("="*40)
     
     # Saludo inicial
