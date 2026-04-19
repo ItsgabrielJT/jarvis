@@ -1,337 +1,0 @@
-========================================
-      SISTEMA JARVIS INICIADO
-========================================
-
-[Jarvis] -> Sistemas en línea. Esperando comando de doble palmada.
-
-Da 2 aplausos a una distancia prudente del micrófono (intervalo ~0.5 a 1 segundo).
-[*] Primer aplauso detectado! (Volumen: 223.3)
-[DEBUG] Volumen actual: 117.0 / Umbral: 150   [DEBUG] Volumen actual: 67.5 / Umbral: 150   [*] ¡Segundo aplauso detectado! (Volumen: 283.8)
-
-========================================
- >>> EVENTO: DOBLE APLAUSO ACTIVADO <<<
-========================================
-
-[Jarvis] -> Iniciando tu entorno de trabajo.
-
-[Jarvis] -> ¿En qué te puedo ayudar, señor? Estaré pendiente a tus órdenes.
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
-[No se entendió el audio, siguiendo a la espera...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
-[No se entendió el audio, siguiendo a la espera...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'qué significa el principio de este reptil'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
-[No se entendió el audio, siguiendo a la espera...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
-[Error de conexión en reconocimiento de voz: recognition request failed: Bad Request]
-
-[Jarvis] -> Error en la conexión con el servidor de reconocimiento de voz. Regresando a espera.
-
-[Regresando al modo silencioso... Esperando doble aplauso para ejecutar de nuevo.]
-[*] Primer aplauso detectado! (Volumen: 157.1)
-[DEBUG] Volumen actual: 83.1 / Umbral: 150   [DEBUG] Volumen actual: 140.1 / Umbral: 150   [DEBUG] Volumen actual: 92.8 / Umbral: 150   [DEBUG] Volumen actual: 60.8 / Umbral: 150   [DEBUG] Volumen actual: 53.4 / Umbral: 150   [DEBUG] Volumen actual: 71.8 / Umbral: 150   [DEBUG] Volumen actual: 64.7 / Umbral: 150   [DEBUG] Volumen actual: 62.9 / Umbral: 150   [DEBUG] Volumen actual: 63.7 / Umbral: 150   [DEBUG] Volumen actual: 50.1 / Umbral: 150   [DEBUG] Volumen actual: 60.0 / Umbral: 150   [DEBUG] Volumen actual: 61.3 / Umbral: 150   [DEBUG] Volumen actual: 59.6 / Umbral: 150   [DEBUG] Volumen actual: 54.5 / Umbral: 150   [DEBUG] Volumen actual: 52.5 / Umbral: 150   [DEBUG] Volumen actual: 53.0 / Umbral: 150   [DEBUG] Volumen actual: 51.7 / Umbral: 150   [DEBUG] Volumen actual: 53.8 / Umbral: 150   [DEBUG] Volumen actual: 58.9 / Umbral: 150   [DEBUG] Volumen actual: 57.5 / Umbral: 150   [DEBUG] Volumen actual: 71.0 / Umbral: 150   [DEBUG] Volumen actual: 72.1 / Umbral: 150   [DEBUG] Volumen actual: 55.7 / Umbral: 150   [DEBUG] Volumen actual: 78.9 / Umbral: 150   [DEBUG] Volumen actual: 89.7 / Umbral: 150   [DEBUG] Volumen actual: 50.6 / Umbral: 150   [DEBUG] Volumen actual: 55.6 / Umbral: 150   [DEBUG] Volumen actual: 91.1 / Umbral: 150   [DEBUG] Volumen actual: 106.7 / Umbral: 150   [DEBUG] Volumen actual: 100.6 / Umbral: 150   [DEBUG] Volumen actual: 103.5 / Umbral: 150   [DEBUG] Volumen actual: 82.3 / Umbral: 150   [DEBUG] Volumen actual: 72.9 / Umbral: 150   [DEBUG] Volumen actual: 56.1 / Umbral: 150   [DEBUG] Volumen actual: 62.2 / Umbral: 150   [DEBUG] Volumen actual: 71.0 / Umbral: 150   [DEBUG] Volumen actual: 61.0 / Umbral: 150   [DEBUG] Volumen actual: 59.3 / Umbral: 150   [DEBUG] Volumen actual: 52.8 / Umbral: 150   [DEBUG] Volumen actual: 54.5 / Umbral: 150   [DEBUG] Volumen actual: 57.6 / Umbral: 150   [DEBUG] Volumen actual: 57.2 / Umbral: 150   [DEBUG] Volumen actual: 60.6 / Umbral: 150   [DEBUG] Volumen actual: 74.2 / Umbral: 150   [DEBUG] Volumen actual: 65.3 / Umbral: 150   [DEBUG] Volumen actual: 57.4 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 151.5)
-[DEBUG] Volumen actual: 119.4 / Umbral: 150   [*] ¡Segundo aplauso detectado! (Volumen: 153.6)
-
-========================================
- >>> EVENTO: DOBLE APLAUSO ACTIVADO <<<
-========================================
-
-[Jarvis] -> Iniciando tu entorno de trabajo.
-
-[Jarvis] -> ¿En qué te puedo ayudar, señor? Estaré pendiente a tus órdenes.
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'dime qué es una manzana está la pared de la nariz y la boca están echados para afuera y para abajo mira mira mira mira mira mira mira mira mira de este lado también funcionará dime qué es una manzana jarvis dime qué es una manzana'
-[Consultando a la IA local (LM Studio)...]
-
-[Jarvis AI RAW OUTPUT] ->
-Thinking Process:
-El usuario está haciendo preguntas repetitivas y confusas sobre "qué es una manzana" mezcladas con descripciones extrañas de rostros ("pared de la nariz", "boca echados para afuera") y frases sin sentido. Como Jarvis, debo ser conciso, útil y calmado, ignorando el ruido visual o las repeticiones. La pregunta central es "qué es una manzana". La respuesta debe ser breve y directa, siguiendo estrictamente el formato de salida solicitado (sin asteriscos ni comillas en la parte final). No hay solicitudes de acciones específicas (como abrir VSCode, reproducir música, etc.).
-
-===RESPUESTA_FINAL===
-Una manzana es una fruta redonda, generalmente roja o verde, rica en vitamina C y muy saludable. ¿Hay algo más que quieras saber?
-
-
-[Jarvis] -> Una manzana es una fruta redonda, generalmente roja o verde, rica en vitamina C y muy saludable. ¿Hay algo más que quieras saber?
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'jarvis dime qué es el principio de srt'
-[Consultando a la IA local (LM Studio)...]
-
-[Jarvis AI RAW OUTPUT] ->
-Thinking Process:
-1.  **Analizar la solicitud**: El usuario me identifica como "Jarvis" y pregunta sobre el "principio de SRT".
-2.  **Identificar el término "SRT"**: En el contexto tecnológico, "SRT" comúnmente se refiere al *Secure Reliable Transport*, un protocolo de transmisión de audio/video en vivo (usado en Twitch, YouTube, etc.). También podría referirse a la *Sistema de Referencia Transversal* (menos probable aquí) o simplemente ser una abreviatura que el usuario confunde. Dado que soy un asistente de voz tipo Jarvis, es muy probable que se refiera al protocolo técnico para streaming seguro.
-3.  **Determinar la respuesta adecuada**: Necesito explicar qué es Secure Reliable Transport brevemente y claramente, manteniendo mi personalidad de asistente virtual (Jarvis).
-4.  **Verificar restricciones de formato**:
-    *   Debo generar el proceso de razonamiento interno primero ("Thinking Process").
-    *   La salida final verbal debe ir ÚNICAMENTE debajo de la cadena exacta `===RESPUESTA_FINAL===`.
-    *   No debo usar asteriscos ni comillas en la respuesta final.
-    *   No hay pedidos de acciones específicas (Abrir código, música, etc.), así que no incluyo etiquetas de acción.
-5.  **Redactar la respuesta**: "El protocolo SRT es Secure Reliable Transport, un estándar para transmitir video y audio en vivo de manera segura a través de redes inestables, utilizado por plataformas como Twitch."
-
-Refinando el tono para sonar como Jarvis: Es breve, directo y útil.
-
-Respuesta propuesta: "El principio de SRT se refiere al protocolo Secure Reliable Transport, diseñado para transmitir vídeo y audio en tiempo real de forma segura y estable a través de redes inestables."
-
-Revisión final contra las reglas:
-- ¿Está debajo de `===RESPUESTA_FINAL===`? Sí.
-- ¿Tiene texto extra antes del razonamiento? No (el razonamiento va primero).
-- ¿Hay asteriscos en la respuesta final? No.
-
-Procedo a generar la salida.
-
-
-[Jarvis] -> `? Sí.
-- ¿Tiene texto extra antes del razonamiento? No (el razonamiento va primero).
-- ¿Hay asteriscos en la respuesta final? No.
-
-Procedo a generar la salida.
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'esto está ahí estás listo como hundido hacia adelante y si caminas hacia acá poco a poco te das cuenta que esa persona en su plan premium bueno a responder un poco versión gratuita sí vale con inteligencia en el cual tenemos para lo que es imágenes eh thor integrado dentro de jarvis es porque tiene una forma que suena el este excel luego tenemos porque sí vamos a tener algunos planes en lo que es jarvis tenemos el plan básico'
-[Consultando a la IA local (LM Studio)...]
-
-[Jarvis AI RAW OUTPUT] ->
-Thinking Process:
-1.  **Analizar la entrada del usuario**: El usuario está hablando de manera fragmentada, mencionando características como "versión gratuita", "plan premium", "imágenes", "Thor integrado" (probablemente refiriéndose a una interfaz o sonido), "excel" y planes básicos para un asistente llamado Jarvis. Parece estar describiendo o preguntando sobre las diferencias entre versiones de un software/sistema, pero la gramática es muy confusa y parece ser un habla automática o mal transcrita.
-2.  **Identificar el rol**: Debo actuar como Jarvis, un asistente de IA de voz eficiente y conversacional.
-3.  **Determinar la respuesta**: Dado que la entrada del usuario es incoherente y no contiene una solicitud clara (como "abrir código", "poner música", etc.), debo responder de manera amable, confirmando que estoy listo para ayudar, pero pidiendo aclaración sobre qué versión o función específica quiere utilizar. No hay ninguna petición de acción mapeada específica (como abrir VSCode, poner AC/DC, etc.) en el texto proporcionado.
-4.  **Formato de salida**: Debo adherir estrictamente al formato solicitado: primero el proceso de razonamiento (`Thinking Process:`) y luego la respuesta final hablada únicamente debajo de `===RESPUESTA_FINAL===`, sin asteriscos ni comillas adicionales en la parte de voz.
-5.  **Redacción de la respuesta**: "Sé que mencionas las versiones premium y gratuitas, así como Thor e imágenes. Estoy listo para ayudarte con Jarvis. ¿Cuál función te gustaría activar o explicar mejor?" (Manteniendo un tono conversacional).
-
-===RESPUESTA_FINAL===
-
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'nivel nacional aquí aquí no sé si estoy muy arriba hola le quedó súper chiquitos aquí es enorme entonces estoy pensando que a lo mejor es una imagen como la del principio del museo o sea con mapas y eso lo dudo y también es un grupos reales ahora veo si en el centro la parte de arriba si tenías que poner aquí en esta esquina'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
-[No se entendió el audio, siguiendo a la espera...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'pregunta esta conclusión'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'sacerdote no entienden tu alma mía tu alma sería salvada pero tu cuerpo debe ser consignado a dios para las 12 los cuerpos deben ser levantados las escrituras explican y escritura sí fueron colgadas y ahogadas ya están muertas para mí por qué se preparó temporada de brujas 13325 hoy pelearan por dios en persona hoy sin ustedes son guerreros santos 114 el único pecado que se enfrentará este día es el fracaso estás en la mayoría sí los dividimos en partes iguales quién pagará los tragos tú los pagarás amigo prepárense para la batalla bueno tendrás que anotarme 600 muertos'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'las cervezas cerca de mí 13344 con la sangre de los elefantes 130077 después de cristo jesús'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'bueno ser su amigo tampoco es sencillo batalla de esmeralda 1344 después de cristo son impuros infieles han pecado contra dios y en contra de su único hijo jesucristo deben ser castigado cuánta gente especialmente'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
-[No se entendió el audio, siguiendo a la espera...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'ahí se va a contar lo que matan a la gente inocente mi alma perdida es un día de gloria para la iglesia llamas a esto gloria matar mujeres y niños conoce su posición caballero ofreció su vida por esta causa por dios no por esto soy el vocero que dios designó en la tierra sus palabras son interpretadas por mis oídos pues quizás no sea su voz lo que escuché que insulto soy el vocero de la iglesia bañado en verdad y libre de culpa usted no es más que un patán con sangre en las manos quién controla su insolente lengua gamer será mejor que nos vayamos no puede irse así y quién lo impedirá cabras vagando libremente ningún pastor a la vista probablemente se escaparon todo el día y todavía no nos hemos topado ni a un alma mejor preocúpate por tu alma hay alguien aquí hola hola bueno lo que esté negro unos lo merecían y otros no pero qué hace aquí para merecer una muela al fin poblado puede que no reconocen caballos apropiados comida y provisiones es lo que necesitamos'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'pero cómo es que no lo sabía somos viajeros volvimos recientemente aquí está dos de mis mejores caballos gracias como cambiar de auto cabello así no la toques vámonos y ahora qué pasa vieron mi espada ustedes vean la cara lo sabía ven conmigo'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'un momento espero que nos inviten a cenar qué quiere de nosotros sacerdote no me corresponde contestar eso primero la bruja negra yo misma con varios rituales con los poderes de la bruja eternidad qué tiene que ver esto con nosotros debes capturar la bruja el mejor caballero te preguntaré lo mismo servirás a tu iglesia te absorción no con los hombres que matan en su nombre conoces la vida profesional que cuesta 2 7 5 1 2 . 7 7'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'tengo un mensaje suscribes mucho con mucho amor quién sabe que de mi mamá sabe que le quieren hacer esfuerzos no se trata de la iglesia necesitamos nuestras almas estamos aquí la abadía está aquí la distancia'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'mañana mañana pero jamás estate alguien de tierra reliquias reliquias genuinas en dónde vendrías tus baratijas en cualquier parte compradores satisfechos de aquí hasta praga'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'alma de mi mano me encantaría que usted es un mapa pero la administración judicial del camino claro de noche'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
-[No se entendió el audio, siguiendo a la espera...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'las condiciones sanación es culpa se lo merece ver tu voz gracias qué amable'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'yo estaba manipulando cosas extrañas que nadie podía entender eso la convierte en bruja no pero es una señal a dos semanas de su llegada la plaga nos devastó a todos ocurrió lo mismo en cada pueblo nunca se mencionó que alguna chica haya pasado con el cuerpo aún así la playa el más fuerte de lo que se ve ay ay ay ay ay ay ay ay'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
-[Error de conexión en reconocimiento de voz: recognition request failed: Bad Request]
-
-[Jarvis] -> Error en la conexión con el servidor de reconocimiento de voz. Regresando a espera.
-
-[Regresando al modo silencioso... Esperando doble aplauso para ejecutar de nuevo.]
-[*] Primer aplauso detectado! (Volumen: 166.8)
-[DEBUG] Volumen actual: 60.3 / Umbral: 150   [DEBUG] Volumen actual: 82.3 / Umbral: 150   [DEBUG] Volumen actual: 70.6 / Umbral: 150   [DEBUG] Volumen actual: 91.9 / Umbral: 150   [DEBUG] Volumen actual: 118.6 / Umbral: 150   [DEBUG] Volumen actual: 53.7 / Umbral: 150   [DEBUG] Volumen actual: 122.7 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 366.0)
-[DEBUG] Volumen actual: 94.1 / Umbral: 150   [DEBUG] Volumen actual: 138.5 / Umbral: 150   [DEBUG] Volumen actual: 84.0 / Umbral: 150   [DEBUG] Volumen actual: 135.8 / Umbral: 150   [DEBUG] Volumen actual: 78.4 / Umbral: 150   [DEBUG] Volumen actual: 81.8 / Umbral: 150   [DEBUG] Volumen actual: 68.6 / Umbral: 150   [DEBUG] Volumen actual: 65.8 / Umbral: 150   [DEBUG] Volumen actual: 114.0 / Umbral: 150   [DEBUG] Volumen actual: 101.8 / Umbral: 150   [DEBUG] Volumen actual: 73.2 / Umbral: 150   [DEBUG] Volumen actual: 91.8 / Umbral: 150   [DEBUG] Volumen actual: 50.8 / Umbral: 150   [DEBUG] Volumen actual: 116.9 / Umbral: 150   [*] ¡Segundo aplauso detectado! (Volumen: 337.9)
-
-========================================
- >>> EVENTO: DOBLE APLAUSO ACTIVADO <<<
-========================================
-
-[Jarvis] -> Iniciando tu entorno de trabajo.
-
-[Jarvis] -> ¿En qué te puedo ayudar, señor? Estaré pendiente a tus órdenes.
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
-[No se entendió el audio, siguiendo a la espera...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'gracias'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'johnson el frasco en serio a dónde llegamos qué lugar es este'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
-[Error de conexión en reconocimiento de voz: recognition request failed: Bad Request]
-
-[Jarvis] -> Error en la conexión con el servidor de reconocimiento de voz. Regresando a espera.
-
-[Regresando al modo silencioso... Esperando doble aplauso para ejecutar de nuevo.]
-[*] Primer aplauso detectado! (Volumen: 253.9)
-[DEBUG] Volumen actual: 51.7 / Umbral: 150   [DEBUG] Volumen actual: 53.3 / Umbral: 150   [DEBUG] Volumen actual: 50.1 / Umbral: 150   [DEBUG] Volumen actual: 50.2 / Umbral: 150   [DEBUG] Volumen actual: 61.7 / Umbral: 150   [DEBUG] Volumen actual: 52.1 / Umbral: 150   [DEBUG] Volumen actual: 58.0 / Umbral: 150   [DEBUG] Volumen actual: 52.9 / Umbral: 150   [DEBUG] Volumen actual: 58.8 / Umbral: 150   [DEBUG] Volumen actual: 61.5 / Umbral: 150   [DEBUG] Volumen actual: 52.9 / Umbral: 150   [DEBUG] Volumen actual: 67.8 / Umbral: 150   [DEBUG] Volumen actual: 60.7 / Umbral: 150   [DEBUG] Volumen actual: 56.4 / Umbral: 150   [DEBUG] Volumen actual: 56.4 / Umbral: 150   [DEBUG] Volumen actual: 51.2 / Umbral: 150   [DEBUG] Volumen actual: 51.7 / Umbral: 150   [DEBUG] Volumen actual: 67.6 / Umbral: 150   [DEBUG] Volumen actual: 54.9 / Umbral: 150   [DEBUG] Volumen actual: 72.9 / Umbral: 150   [DEBUG] Volumen actual: 87.8 / Umbral: 150   [DEBUG] Volumen actual: 60.0 / Umbral: 150   [DEBUG] Volumen actual: 63.7 / Umbral: 150   [DEBUG] Volumen actual: 64.4 / Umbral: 150   [DEBUG] Volumen actual: 53.9 / Umbral: 150   [DEBUG] Volumen actual: 65.0 / Umbral: 150   [DEBUG] Volumen actual: 51.4 / Umbral: 150   [DEBUG] Volumen actual: 58.7 / Umbral: 150   [DEBUG] Volumen actual: 78.2 / Umbral: 150   [DEBUG] Volumen actual: 89.6 / Umbral: 150   [DEBUG] Volumen actual: 93.4 / Umbral: 150   [DEBUG] Volumen actual: 79.0 / Umbral: 150   [DEBUG] Volumen actual: 76.4 / Umbral: 150   [DEBUG] Volumen actual: 62.8 / Umbral: 150   [DEBUG] Volumen actual: 54.4 / Umbral: 150   [DEBUG] Volumen actual: 62.2 / Umbral: 150   [DEBUG] Volumen actual: 64.8 / Umbral: 150   [DEBUG] Volumen actual: 65.3 / Umbral: 150   [DEBUG] Volumen actual: 64.7 / Umbral: 150   [DEBUG] Volumen actual: 54.7 / Umbral: 150   [DEBUG] Volumen actual: 52.4 / Umbral: 150   [DEBUG] Volumen actual: 59.0 / Umbral: 150   [DEBUG] Volumen actual: 60.4 / Umbral: 150   [DEBUG] Volumen actual: 53.7 / Umbral: 150   [DEBUG] Volumen actual: 58.8 / Umbral: 150   [DEBUG] Volumen actual: 58.0 / Umbral: 150   [DEBUG] Volumen actual: 61.0 / Umbral: 150   [DEBUG] Volumen actual: 58.0 / Umbral: 150   [DEBUG] Volumen actual: 51.3 / Umbral: 150   [DEBUG] Volumen actual: 53.5 / Umbral: 150   [DEBUG] Volumen actual: 52.2 / Umbral: 150   [DEBUG] Volumen actual: 51.3 / Umbral: 150   [DEBUG] Volumen actual: 58.6 / Umbral: 150   [DEBUG] Volumen actual: 52.8 / Umbral: 150   [DEBUG] Volumen actual: 51.2 / Umbral: 150   [DEBUG] Volumen actual: 62.2 / Umbral: 150   [DEBUG] Volumen actual: 70.1 / Umbral: 150   [DEBUG] Volumen actual: 69.7 / Umbral: 150   [DEBUG] Volumen actual: 61.6 / Umbral: 150   [DEBUG] Volumen actual: 53.5 / Umbral: 150   [DEBUG] Volumen actual: 53.6 / Umbral: 150   [DEBUG] Volumen actual: 53.0 / Umbral: 150   [DEBUG] Volumen actual: 70.3 / Umbral: 150   [DEBUG] Volumen actual: 66.9 / Umbral: 150   [DEBUG] Volumen actual: 59.5 / Umbral: 150   [DEBUG] Volumen actual: 61.0 / Umbral: 150   [DEBUG] Volumen actual: 59.1 / Umbral: 150   [DEBUG] Volumen actual: 63.0 / Umbral: 150   [DEBUG] Volumen actual: 68.4 / Umbral: 150   [DEBUG] Volumen actual: 69.8 / Umbral: 150   [DEBUG] Volumen actual: 66.3 / Umbral: 150   [DEBUG] Volumen actual: 74.5 / Umbral: 150   [DEBUG] Volumen actual: 72.3 / Umbral: 150   [DEBUG] Volumen actual: 59.5 / Umbral: 150   [DEBUG] Volumen actual: 54.9 / Umbral: 150   [DEBUG] Volumen actual: 53.8 / Umbral: 150   [DEBUG] Volumen actual: 57.6 / Umbral: 150   [DEBUG] Volumen actual: 55.7 / Umbral: 150   [DEBUG] Volumen actual: 53.5 / Umbral: 150   [DEBUG] Volumen actual: 53.2 / Umbral: 150   [DEBUG] Volumen actual: 51.4 / Umbral: 150   [DEBUG] Volumen actual: 52.8 / Umbral: 150   [DEBUG] Volumen actual: 51.4 / Umbral: 150   [DEBUG] Volumen actual: 53.6 / Umbral: 150   [DEBUG] Volumen actual: 53.1 / Umbral: 150   [DEBUG] Volumen actual: 62.0 / Umbral: 150   [DEBUG] Volumen actual: 141.5 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 226.4)
-[DEBUG] Volumen actual: 70.0 / Umbral: 150   [DEBUG] Volumen actual: 57.3 / Umbral: 150   [DEBUG] Volumen actual: 52.9 / Umbral: 150   [DEBUG] Volumen actual: 77.9 / Umbral: 150   [DEBUG] Volumen actual: 75.4 / Umbral: 150   [DEBUG] Volumen actual: 137.4 / Umbral: 150   [DEBUG] Volumen actual: 60.6 / Umbral: 150   [DEBUG] Volumen actual: 146.8 / Umbral: 150   [DEBUG] Volumen actual: 116.9 / Umbral: 150   [DEBUG] Volumen actual: 74.2 / Umbral: 150   [DEBUG] Volumen actual: 81.2 / Umbral: 150   [DEBUG] Volumen actual: 105.9 / Umbral: 150   [DEBUG] Volumen actual: 110.3 / Umbral: 150   [DEBUG] Volumen actual: 57.2 / Umbral: 150   [DEBUG] Volumen actual: 80.2 / Umbral: 150   [DEBUG] Volumen actual: 79.1 / Umbral: 150   [DEBUG] Volumen actual: 65.3 / Umbral: 150   [DEBUG] Volumen actual: 51.5 / Umbral: 150   [DEBUG] Volumen actual: 53.3 / Umbral: 150   [DEBUG] Volumen actual: 52.0 / Umbral: 150   [DEBUG] Volumen actual: 57.0 / Umbral: 150   [DEBUG] Volumen actual: 54.0 / Umbral: 150   [DEBUG] Volumen actual: 50.1 / Umbral: 150   [DEBUG] Volumen actual: 63.0 / Umbral: 150   [DEBUG] Volumen actual: 75.1 / Umbral: 150   [DEBUG] Volumen actual: 53.4 / Umbral: 150   [DEBUG] Volumen actual: 52.5 / Umbral: 150   [DEBUG] Volumen actual: 54.5 / Umbral: 150   [DEBUG] Volumen actual: 55.0 / Umbral: 150   [DEBUG] Volumen actual: 56.1 / Umbral: 150   [DEBUG] Volumen actual: 55.7 / Umbral: 150   [DEBUG] Volumen actual: 54.7 / Umbral: 150   [DEBUG] Volumen actual: 57.5 / Umbral: 150   [DEBUG] Volumen actual: 51.9 / Umbral: 150   [DEBUG] Volumen actual: 53.0 / Umbral: 150   [DEBUG] Volumen actual: 59.0 / Umbral: 150   [DEBUG] Volumen actual: 51.4 / Umbral: 150   [DEBUG] Volumen actual: 52.1 / Umbral: 150   [DEBUG] Volumen actual: 51.3 / Umbral: 150   [DEBUG] Volumen actual: 54.0 / Umbral: 150   [DEBUG] Volumen actual: 51.7 / Umbral: 150   [DEBUG] Volumen actual: 69.0 / Umbral: 150   [DEBUG] Volumen actual: 56.7 / Umbral: 150   [DEBUG] Volumen actual: 59.8 / Umbral: 150   [DEBUG] Volumen actual: 53.3 / Umbral: 150   [DEBUG] Volumen actual: 50.3 / Umbral: 150   [DEBUG] Volumen actual: 52.5 / Umbral: 150   [DEBUG] Volumen actual: 55.4 / Umbral: 150   [DEBUG] Volumen actual: 53.8 / Umbral: 150   [DEBUG] Volumen actual: 55.3 / Umbral: 150   [DEBUG] Volumen actual: 56.6 / Umbral: 150   [DEBUG] Volumen actual: 55.1 / Umbral: 150   [DEBUG] Volumen actual: 65.6 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 421.5)
-[DEBUG] Volumen actual: 77.4 / Umbral: 150   [DEBUG] Volumen actual: 50.4 / Umbral: 150   [DEBUG] Volumen actual: 51.9 / Umbral: 150   [DEBUG] Volumen actual: 76.8 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 171.8)
-[DEBUG] Volumen actual: 129.9 / Umbral: 150   [DEBUG] Volumen actual: 72.7 / Umbral: 150   [DEBUG] Volumen actual: 67.2 / Umbral: 150   [DEBUG] Volumen actual: 82.7 / Umbral: 150   [DEBUG] Volumen actual: 119.4 / Umbral: 150   [DEBUG] Volumen actual: 87.7 / Umbral: 150   [DEBUG] Volumen actual: 73.9 / Umbral: 150   [DEBUG] Volumen actual: 107.4 / Umbral: 150   [DEBUG] Volumen actual: 103.4 / Umbral: 150   [DEBUG] Volumen actual: 117.9 / Umbral: 150   [DEBUG] Volumen actual: 144.6 / Umbral: 150   [DEBUG] Volumen actual: 146.2 / Umbral: 150   [DEBUG] Volumen actual: 127.3 / Umbral: 150   [DEBUG] Volumen actual: 73.6 / Umbral: 150   [DEBUG] Volumen actual: 85.0 / Umbral: 150   [DEBUG] Volumen actual: 145.6 / Umbral: 150   [DEBUG] Volumen actual: 120.4 / Umbral: 150   [*] ¡Segundo aplauso detectado! (Volumen: 156.0)
-
-========================================
- >>> EVENTO: DOBLE APLAUSO ACTIVADO <<<
-========================================
-
-[Jarvis] -> Iniciando tu entorno de trabajo.
-
-[Jarvis] -> ¿En qué te puedo ayudar, señor? Estaré pendiente a tus órdenes.
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'el rituales partidos lo único que necesitaba ser alguien salvaje alguien con quien alivia tu penoso falla en serio pensaste que salvar a una niña abandonada y va a cambiar algo tus pecados te acechan sabes cuántos inocentes fueron matados por tu espada son impuros infieles al pecado contra dios y en contra de su único hijo jesucristo debe ser castigado cómo sabes eso no es una bruja es cierto éxito colombia libretista'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'bien hecho de unirme a su casa a pesar de que'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'para ser tu sirviente para ser tu sirviente y abrázame con fuerza en la batalla y abrazo con fuerza en la batalla y aplastar a tus enemigos y gastar a tus enemigos como crepúsculo antes del viento como crepúsculo antes del viento amén amén amén amén amén amén seguir en un caballero qué pasa si mi corazón que no me gusta lo harás el demonio pudo haber escapado antes porque esperar hasta llegar acá y se escapar no era su propósito su propósito es estar aquí debe estar conmigo la forma de parte de esto y luego murió después jajaja se interpuso en su camino matemos la otra vez desde un principio por dios porque un monje moribundo se lastimaría así porque cerraría una mesa hay otros más por acá hay más'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'poner en la laptop sioke cuál es la dosis xbox creo que es mucho mejor que el negro no digo nada güey dile las películas de transportadores'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'dr pajas doctor extraño y aquí hay tampoco la molestia oportunidad se llama doctor strange por qué razón qué pasa si busco los los pilotos automático stranger things videos creo que encontré ya encontré ella'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'quiero matar a spider-man como hombre estabas tus cosas prestado significa que di feliz cumpleaños para que se vea más'
-[Wake word 'Jarvis' no detectada. Ignorando...]
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[5 minutos sin comandos detectados]
-
-[Jarvis] -> Como no hay más órdenes, regresaré a mi modo de espera.
-
-[Regresando al modo silencioso... Esperando doble aplauso para ejecutar de nuevo.]
-[*] Primer aplauso detectado! (Volumen: 180.7)
-[DEBUG] Volumen actual: 72.8 / Umbral: 150   [DEBUG] Volumen actual: 66.2 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 162.2)
-[*] ¡Segundo aplauso detectado! (Volumen: 235.6)
-
-========================================
- >>> EVENTO: DOBLE APLAUSO ACTIVADO <<<
-========================================
-
-[Jarvis] -> Iniciando tu entorno de trabajo.
-
-[Jarvis] -> ¿En qué te puedo ayudar, señor? Estaré pendiente a tus órdenes.
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
-[Error de conexión en reconocimiento de voz: recognition connection failed: [Errno 32] Broken pipe]
-
-[Jarvis] -> Error en la conexión con el servidor de reconocimiento de voz. Regresando a espera.
-
-[Regresando al modo silencioso... Esperando doble aplauso para ejecutar de nuevo.]
-[DEBUG] Volumen actual: 56.7 / Umbral: 150   [DEBUG] Volumen actual: 52.2 / Umbral: 150   [DEBUG] Volumen actual: 50.4 / Umbral: 150   [DEBUG] Volumen actual: 66.6 / Umbral: 150   [DEBUG] Volumen actual: 133.6 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 188.1)
-[DEBUG] Volumen actual: 125.0 / Umbral: 150   [DEBUG] Volumen actual: 101.6 / Umbral: 150   [DEBUG] Volumen actual: 100.0 / Umbral: 150   [DEBUG] Volumen actual: 70.8 / Umbral: 150   [DEBUG] Volumen actual: 66.1 / Umbral: 150   [DEBUG] Volumen actual: 68.8 / Umbral: 150   [DEBUG] Volumen actual: 82.7 / Umbral: 150   [DEBUG] Volumen actual: 127.9 / Umbral: 150   [*] Primer aplauso detectado! (Volumen: 182.8)
-[*] ¡Segundo aplauso detectado! (Volumen: 190.3)
-
-========================================
- >>> EVENTO: DOBLE APLAUSO ACTIVADO <<<
-========================================
-
-[Jarvis] -> Iniciando tu entorno de trabajo.
-
-[Jarvis] -> ¿En qué te puedo ayudar, señor? Estaré pendiente a tus órdenes.
-
-[Escuchando... El modo interactivo se apagará tras 5 minutos de silencio]
-[Procesando audio (Speech to Text)...]
--> Has dicho: 'jarvis apágate jarvis apágate'
-[Consultando a la IA local (LM Studio)...]
-
-[Jarvis AI RAW OUTPUT] ->
-Thinking Process:
-1.  **Analyze Input**: The user is explicitly commanding me to shut down ("apágate" in Spanish) twice for emphasis ("jarvis apágate jarvis apágate").
-2.  **Check Constraints**: I am Jarvis, a voice assistant. I must output my reasoning first inside "Thinking Process:", then strictly follow the separator `===RESPUESTA_FINAL===`.
-3.  **Determine Action**: The user requested the shutdown action (`[ACTION:SHUTDOWN]`). The prompt instructions state to include action tags *only if* the user asked for them. Since they explicitly asked me to shut down, I must include the tag.
-4.  **Draft Response**: A short, conversational voice response confirming the shutdown command, followed by the required action tag.
-5.  **Refine Output**: Ensure no markdown formatting (like asterisks) surrounds the text inside the final block, and keep it strictly under the separator line.
-
-===RESPUESTA_FINAL===
-Entendido, iniciando secuencia de apagado ahora mismo. [ACTION:SHUTDOWN]
-
-
-[Jarvis] -> Entendido, iniciando secuencia de apagado ahora mismo.
-[Apagando proceso...]
